@@ -1,0 +1,34 @@
+{
+  "name": "figure-sdk-js",
+  "version": "0.1.0",
+  "description": "Client side javascript SDK for Figure API",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify lib/index.js | uglifyjs -c > build/figure-sdk-js.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Postcard/figure-sdk-js.git"
+  },
+  "keywords": [
+    "Figure",
+    "Photobooth",
+    "API",
+    "javascript"
+  ],
+  "author": "Benoit Guigal <benoit@postcardgroup.com> (https://figuredevices.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Postcard/figure-sdk-js/issues"
+  },
+  "homepage": "https://github.com/Postcard/figure-sdk-js#readme",
+  "dependencies": {
+    "bluebird": "^2.9.6",
+    "superagent": "^1.6.0",
+    "lodash": "^3.1.0"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.7.4"
+  }
+}

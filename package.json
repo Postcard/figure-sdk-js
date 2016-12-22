@@ -1,6 +1,6 @@
 {
   "name": "figure-sdk-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Client side javascript SDK for Figure API",
   "main": "lib/index.js",
   "scripts": {

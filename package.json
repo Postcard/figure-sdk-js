@@ -25,7 +25,7 @@
   "homepage": "https://github.com/Postcard/figure-sdk-js#readme",
   "dependencies": {
     "bluebird": "^2.9.6",
-    "superagent": "^1.6.0",
+    "superagent": "^5.1.2",
     "lodash": "^3.1.0"
   },
   "devDependencies": {

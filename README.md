@@ -1,3 +1,5 @@
+# THIS PACKAGE IS OUTDATED, CHECKOUT FIGURE-SDK-NODE OR FIGURE-SDK ON NPM.ORG
+
 # figure-sdk-js
 Client-side javascript SDK for Figure API
 
